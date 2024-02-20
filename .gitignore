@@ -1,0 +1,11 @@
+#Mongo files
+.mongodb/
+diagnostic.data/
+journal/
+_*
+collection*
+index-*
+mongo*
+sizeStorer*
+storage.bson
+Wired*
