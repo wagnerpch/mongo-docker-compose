@@ -21,8 +21,15 @@ Pré-requisitos:
 - Docker-compose
 
 ```bash
+
+# altere a indicação do volume no docker-compose.yml
+seu-diretorio/data/db:/data/db
+
 # após clonar o projeto, execute o seguinte comando no terminal
 docker-compose up
+
+# acesse o mongo-express com usuário e senha do docker-compose.yml
+http://localhost:8081/
 
 ```
 # Autor
